@@ -1,0 +1,26 @@
+# Kareemo Site — Deployment Guide
+
+## Platform: Netlify
+- **Team:** 777 (kareemodev777)
+- **Slug:** kareemodev777
+
+## Deploy Commands
+```bash
+cd ~/Projects/kareemo-site
+
+# Deploy to production (static)
+netlify deploy --prod --dir=.
+```
+
+## Netlify Login (if auth expired)
+```bash
+netlify login
+# Team: 777 | Account: kareemodev777
+```
+
+## Local Dev
+```bash
+cd ~/Projects/kareemo-site
+# Static site — open index.html directly
+npx serve .
+```
